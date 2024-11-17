@@ -4,14 +4,14 @@ There are 3 task given to complete in Level-1. After completing all tasks, if ev
 Glad to be a part of OASIS INFOBYTE intern program.
 
 
-## Task1 - Landing Page
+## TASK 1 - Landing Page
 A landing page created under the virtual internship program of Oasis Infobyte. <br>
 [Live](https://oibsip-task1-landing-page--psi.vercel.app/)
 
-## Task2 - Portfolio
+## TASK 2 - Portfolio
 A portfolio created under the virtual internship program of Oasis Infobyte. <br>
 [Live](https://oibsip-task2-portfolio-tau.vercel.app/)
 
-## Task3 - Temperature Converter Website
+## TASK 3 - Temperature Converter Website
 A tempertaure converter wbesite created under the virtual internship program of Oasis Infobyte. <br>
 [Live](https://oibsip-task3-temperature-converter-website.vercel.app/)
