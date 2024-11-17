@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" type="x-icon" href="icon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Landing Page Maserati_MC20</title>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav container">
+                <a href="https://www.maserati.com" target="_blank" rel="noopener noreferrer" class="nav__logo">
+                    Maserati.
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="https://www.maserati.com/in/en/models/mc20"  
+                            target="_blank" rel="noopener noreferrer" class="nav__link">Models</a></li>
+                        <li class="nav__item"><a href="https://www.maserati.com/in/en/shopping-tools/configurator" 
+                            target="_blank" rel="noopener noreferrer" class="nav__link">Build Your Own</a></li>
+                        <li class="nav__item"><a href="https://www.maserati.com/global/en/brand/history" 
+                            target="_blank" rel="noopener noreferrer" class="nav__link">Brand</a></li>
+                        <li class="nav__item"><a href="https://row.maseratistore.com/" 
+                            target="_blank" rel="noopener noreferrer" class="nav__link">Store</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav__toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main container">
+            <div class="home grid">
+                <h1 class="home__title">MASERATI</h1>
+
+                <div class="home__img">
+                    <img src="maserati.png" alt="">
+                </div>
+
+                <div class="home__information">
+                    <h2 class="home__subtitle">MASERATI<br>MC20</h2>
+                    <p class="home__description">The Maserati MC20, introduced in 2020, 
+                        is a high-performance sports car with a 630-hp twin-turbo V6 engine. 
+                        Its sleek design, carbon fiber structure, and advanced technology combine luxury with Maserati’s racing heritage.</p>
+                </div>
+
+                <div class="box">
+                    <div class="box__content box__medium">
+                        <ion-icon name="speedometer-outline" class="icon-box"></ion-icon>
+                        <h3 class="box__medium-title inline">2.9</h3>
+                        <span class="box__medium-description block">Sec.</span>
+                        <span class="box__medium-detail">0-100 km/h</span>
+                    </div>
+
+                    <div>
+                        <div class="box__content box__small">
+                            <ion-icon name="trending-up-outline" class="icon-box icon-box--small"></ion-icon>
+                            <h3 class="box__small-title inline"> 320 </h3>
+                            <span class="box__small-description block">km/h</span>
+                            <span class="box__small-detail">Top Speed</span>
+                        </div>
+                        <div class="box__content box__small">
+                            <ion-icon name="car-sport-outline" class="icon-box icon-box--small"></ion-icon>
+                            <h3 class="box__small-title inline">630</h3>
+                            <span class="box__small-description block">hp</span>
+                            <span class="box__small-detail">Power</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script  type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+
+        <script src="script.js"></script>
+    </body>
+</html>
